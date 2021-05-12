@@ -126,8 +126,8 @@ function init() {
     c1 = document.getElementById('output-canvas');
     ctx1 = c1.getContext('2d');
     c_tmp = document.createElement('canvas');
-    c_tmp.setAttribute('width', 800);
-    c_tmp.setAttribute('height', 450);
+    c_tmp.setAttribute('width', 1280);
+    c_tmp.setAttribute('height', 720);
     ctx_tmp = c_tmp.getContext('2d');
     video.addEventListener('play', computeFrame);
 }
